@@ -1,0 +1,143 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Generated files
+*.html
+!*README*.html
+*.log
+*.csv
+*.graphml
+*.xml
+
+# Cache directories
+cache/
+.cache/
+__cache__/
+
+# OSM data cache
+osmnx_cache/
+.osmnx_cache/
+
+# ML Models (if saved)
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+models/
+saved_models/
+
+# Data files
+data/
+datasets/
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Claude Code
+.claude/
+
+# Test files
+test_*.py
+*_test.py
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation build
+docs/_build/
+site/
+
+# Project specific
+route_*.html
+!route_comparison_PRODUCTION.html
+*.pdf
+!GT_projects_list_fall25*.pdf
+FIXED_MAP_FUNCTION.py
+HOW_TO_SEARCH_BY_PLACE_NAME.md
+PRESENTATION_RECOMMENDATIONS.md
+QUICKSTART.md
+REQUIREMENT_VERIFICATION.md
+START_HERE.md
+
+# Jupyter notebook outputs (keep notebook but ignore heavy outputs)
+# Uncomment if notebooks get too large
+# *.ipynb

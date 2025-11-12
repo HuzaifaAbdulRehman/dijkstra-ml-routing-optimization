@@ -7,7 +7,6 @@ import networkx as nx
 import numpy as np
 from typing import Dict, List, Tuple, Any
 import time
-import heapq
 
 
 class RouteOptimizer:
@@ -56,12 +55,22 @@ class RouteOptimizer:
 
             computation_time = time.time() - start_time
 
+            # Create descriptive algorithm name based on weight
+            if weight == 'length':
+                algo_name = 'Dijkstra (Distance)'
+            elif weight == 'travel_time':
+                algo_name = 'Dijkstra (Time)'
+            elif weight == 'ml_travel_time':
+                algo_name = 'Dijkstra (ML-Optimized)'
+            else:
+                algo_name = f'Dijkstra ({weight})'
+
             return {
                 'route': route,
                 'length_m': length,
                 'time_s': travel_time,
                 'computation_time': computation_time,
-                'algorithm': 'Dijkstra',
+                'algorithm': algo_name,
                 'nodes_explored': len(route)
             }
         except nx.NetworkXNoPath:

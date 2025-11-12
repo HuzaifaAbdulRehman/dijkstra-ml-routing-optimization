@@ -141,3 +141,6 @@ START_HERE.md
 # Jupyter notebook outputs (keep notebook but ignore heavy outputs)
 # Uncomment if notebooks get too large
 # *.ipynb
+analyze_values.py
+TEST_REPORT.md
+PROJECT_ANALYSIS_SUMMARY.md

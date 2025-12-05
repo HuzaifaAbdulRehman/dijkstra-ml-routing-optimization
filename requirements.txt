@@ -1,4 +1,4 @@
-# Shortest Path Routing Optimization - PRODUCTION Requirements
+# Shortest Path Routing Optimization - Requirements
 # Graph Theory Project - Fall 2025
 
 # Core Graph Libraries
